@@ -1,8 +1,12 @@
 
 public class Main {
     public static void main(String args[]) {
-        //Deck deck = new Deck();
-        BlackJack game = new BlackJack();
+        while (true) {
+            Wars war = new Wars();
+            war.War();
+        }
+        
+        //BlackJack game = new BlackJack();
         //Card card = new Card(Card.Suite.HEARTS,9);
         // deck.shuffle();
         // Card y = deck.popCard();
@@ -19,7 +23,7 @@ public class Main {
         // }
         //Card y = new Card(Card.Suite.SPADES,12);
         
-        game.Game();
+        //game.Game();
         // System.out.println(deck.toString());
         
     }
